@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Vicky Bakes👩🏻‍🍳 *ੈ✩‧</h1>
+      <h1>Baking Assistant👩🏻‍🍳 *ੈ✩‧</h1>
       <form
         onSubmit={e => {
           e.preventDefault();

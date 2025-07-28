@@ -1,0 +1,16 @@
+{
+  "name": "Vicky Bakes Recipe Extractor",
+  "short_name": "VickyBakes",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f8cff",
+  "description": "Extract and scale recipe ingredients and instructions from any recipe link.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+} 

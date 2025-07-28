@@ -1,0 +1,100 @@
+body {
+  background: #ebebeb;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #a8d5e6;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+input[type="url"] {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 8px 16px;
+  margin-right: 4px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #086796;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+button:not(:disabled):hover {
+  background: #fff;
+  color: #086796
+}
+ul, ol {
+  margin-left: 24px;
+  font-family: 'Lexend', sans-serif;
+  text-align: left;
+}
+h1, h2 {
+  margin-top: 0;
+  font-family: 'Barriecito', cursive;
+}
+
+button{
+  font-family: 'Schoolbell', cursive;
+}
+
+input{
+  font-family: 'Schoolbell', cursive;
+}
+
+span{
+  font-family: 'Schoolbell', cursive;
+}
